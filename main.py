@@ -10,8 +10,8 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 from telegram.error import BadRequest
 
-ALLOWED_CHAT_ID = 6361610849
-BOT_TOKEN = "6515384483:AAGdC30ewYRG6pdOcMJAt8NjK-lFtkh_DuY"
+ALLOWED_CHAT_ID = 7848751003
+BOT_TOKEN = "8008899457:AAG7xUsevA8svkuKEb1Ia0iST72yrZgTmmc"
 
 THREADS, channel, post = 0, '', ''
 
@@ -218,4 +218,5 @@ def main() -> None:
     updater.idle()
 
 if __name__ == '__main__':
+
     main()
